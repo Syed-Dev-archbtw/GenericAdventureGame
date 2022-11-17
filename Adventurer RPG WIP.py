@@ -1,7 +1,7 @@
 # Imports
 import time
 from PIL import Image
-
+from os import name, system
 # Code VV
 
 print("Hello Adventurer!")
@@ -236,7 +236,8 @@ if a8 == "Y":
     print("..")
     print("You see a table with a book on it, there is a puddle of blood next to it.")
     print("Open it? [Y/N]")
-    a9 =input("")
+				chad = True
+    a9 = input("")
     if a9 == "Y":
         im = Image.open(r"pictures/book.png")
         im.show()
