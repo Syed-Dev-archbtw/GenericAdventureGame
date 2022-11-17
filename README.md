@@ -5,13 +5,21 @@ i added a feature where it opens an
 image file and shows it on the screen!
 
 Instalation:
-  Simply just clone the repo in any directory and make sure you have python installed!
+ 
+Simply just clone the repo in any directory and make sure you have python installed!
 
+####
 Running the game:
-  Run this command for Linux:
-    clear && python3 'Adventurer RPG WIP.py'
-  Run this command for windows:
-    cls && python 'Adventurer RPG WIP.py'
+
+Run this command for Linux:
+    
+clear && python3 'Adventurer RPG WIP.py'
+
+Run this command for windows:
+
+cls && python 'Adventurer RPG WIP.py'
+
+####
 
 
 I hope you like my game, i spent quite the time on it!
