@@ -8,7 +8,7 @@ Instalation:
  
 Simply just clone the repo in any directory and make sure you have python installed!
 
--------------------------
+
 Running the game:
 
 Run this command for Linux:
@@ -19,7 +19,7 @@ Run this command for windows:
 {
 cls && python 'Adventurer RPG WIP.py'
 }
--------------------
+
 
 Requirements
 Image (install with {pip install Image})
