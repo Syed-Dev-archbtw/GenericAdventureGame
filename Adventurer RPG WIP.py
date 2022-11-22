@@ -378,7 +378,7 @@ print("It was the Diary of the wimpy kid book. Rodrick Rules.")
 time.sleep(1)
 print("It reminds you of your child hood..")
 time.sleep(1)
-if chad == True:
+if chad:
     clear()
     time.sleep(1)
     print(".")
