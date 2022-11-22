@@ -21,10 +21,10 @@ health = 100
 exp = 0
 inventory = []
 if a1 == 'N':
-	print("I see...")
-	exit()
+    print("I see...")
+    exit()
 else:
-	print("Ok!")
+    print("Ok!")
 print("So first you walk in a forest, you see trees around you, you keep walking and get amazed by its beauty.")
 print("It turns dark soon and then you realize you have to go back, only to realize your lost.")
 print("")
@@ -36,29 +36,29 @@ a2 = input("")
 clear()
 House = ""
 if a2 == "A":
-	House = "hut"
-	print("You take sticks and stone and tree logs and assemble")
-	print("them into a small hut")
-	im = Image.open(r"pictures/hut.png")
-	im.show()
-	input("[Enter to continue] ")
-	print("")
+    House = "hut"
+    print("You take sticks and stone and tree logs and assemble")
+    print("them into a small hut")
+    im = Image.open(r"pictures/hut.png")
+    im.show()
+    input("[Enter to continue] ")
+    print("")
 elif a2 == "B":
-	House = "cave"
-	print("you find a pretty large cave to live in and you decide to stay inside")
-	im = Image.open(r"pictures/cave.png")
-	im.show()
-	input("[Enter to continue] ")
-	print("")
+    House = "cave"
+    print("you find a pretty large cave to live in and you decide to stay inside")
+    im = Image.open(r"pictures/cave.png")
+    im.show()
+    input("[Enter to continue] ")
+    print("")
 elif a2 == "C":
-	House = "treehouse"
-	print("you find a short tree you can Climb and decide to build your treehouse ontop of it")
-	im = Image.open(r"pictures/Screenshot from 2022-09-07 18-26-43.png")
-	im.show()
-	input("[Enter to continue] ")
-	print("")
+    House = "treehouse"
+    print("you find a short tree you can Climb and decide to build your treehouse ontop of it")
+    im = Image.open(r"pictures/Screenshot from 2022-09-07 18-26-43.png")
+    im.show()
+    input("[Enter to continue] ")
+    print("")
 else:
-	House = "non-existent house"
+    House = "non-existent house"
 print("Now you have a house and even though its turning dark thanks to your "+ House +" You still feel comfy.")
 print("You decide its time to sleep so you take some leaves and shrubury to assemble a bed in your "+ House)
 print("You wake up in the morning and you feel hungry, what should you eat?")
@@ -67,17 +67,17 @@ a3 = input("")
 clear()
 food_eaten = ""
 if a3 == "A":
-	print("You go outside of your "+ House +" and search for some berries, you check if its poisoned")
-	print("By feeding it to squirrels sure enough they were still alive, so you ate some berries as")
-	print("a light snack and you feel pretty good after that.")
-	food_eaten = "Fruit"
+    print("You go outside of your "+ House +" and search for some berries, you check if its poisoned")
+    print("By feeding it to squirrels sure enough they were still alive, so you ate some berries as")
+    print("a light snack and you feel pretty good after that.")
+    food_eaten = "Fruit"
 elif a3 == "B":
-	print("You go hunting for some squirrels and you manage to trap and cook 4 squirrels, you ate them")
-	print("all and you get all the energy you need.")
-	food_eaten = "Meat"
+    print("You go hunting for some squirrels and you manage to trap and cook 4 squirrels, you ate them")
+    print("all and you get all the energy you need.")
+    food_eaten = "Meat"
 else:
-	print("ERROROROROORORO CRASHING!I")
-	exit()
+    print("ERROROROROORORO CRASHING!I")
+    exit()
 print("Now your full you decide to make a weapon to defend yourself")
 print("You look around and decide to make a..")
 print("A: Sword B: Bow C: Spear D: Club")
@@ -87,29 +87,29 @@ weapon = ""
 attack_damage = 0
 attack_damage_string = ""
 if a4 == "A":
-	weapon = "sword"
-	attack_damage = 15
-	print("You go around looking for materials to make a sword, you find a rock some sticks and some fiber.")
-	print("You use the rock to sharpen the sticks and then you use the fiber to tie it all up.")
-	print("TADA!! You have a wooden sword which has 15 attack damage")
+    weapon = "sword"
+    attack_damage = 15
+    print("You go around looking for materials to make a sword, you find a rock some sticks and some fiber.")
+    print("You use the rock to sharpen the sticks and then you use the fiber to tie it all up.")
+    print("TADA!! You have a wooden sword which has 15 attack damage")
 elif a4 == "B":
-	weapon = "bow"
-	attack_damage = 10
-	attack_damage_string = str(attack_damage)
-	print("TADA!! You have a "+ weapon +" which has "+ attack_damage_string +" attack damage")
+    weapon = "bow"
+    attack_damage = 10
+    attack_damage_string = str(attack_damage)
+    print("TADA!! You have a "+ weapon +" which has "+ attack_damage_string +" attack damage")
 elif a4 == "C":
-	weapon = "spear"
-	attack_damage = 20
-	attack_damage_string = str(attack_damage)
-	print("TADA!! You have a "+ weapon +" which has "+ attack_damage_string +" attack damage")
+    weapon = "spear"
+    attack_damage = 20
+    attack_damage_string = str(attack_damage)
+    print("TADA!! You have a "+ weapon +" which has "+ attack_damage_string +" attack damage")
 elif a4 == "D":
-	weapon = "club"
-	attack_damage = 10
-	attack_damage_string = str(attack_damage)
-	print("TADA!! You have a "+ weapon +" which has "+ attack_damage_string +" attack damage")
+    weapon = "club"
+    attack_damage = 10
+    attack_damage_string = str(attack_damage)
+    print("TADA!! You have a "+ weapon +" which has "+ attack_damage_string +" attack damage")
 else:
-	print("ERROROROROORORO CRAAAAAAAAAAAAAAAASHINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG")
-	exit()
+    print("ERROROROROORORO CRAAAAAAAAAAAAAAAASHINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG")
+    exit()
 print("Now that you have a "+ weapon +" you feel more safe adventuring outside,")
 print("So you get outside of your "+ House +" and head in the woods.")
 print("")
@@ -152,33 +152,33 @@ if a5 == "A":
         print("You ran away..")
         print("No effect")
 elif a5 == "B":
-	print("You ran away..")
-	print("No effect")
+    print("You ran away..")
+    print("No effect")
 elif a5 == "C":
-	if food_eaten == "Meat":
-		print("You held out the dead cooked squirrel you made before..")
-		time.sleep(2)
-		print("The bear ignored it and lunged towards you, breaking your back thus dying. idiot")
-		health = health - 100
-		health_str = str(health)
-		if health == 0:
-			print("You died")
-			exit()
-		else:
-			pass
-	elif food_eaten == "Fruit":
-		print("You hold out some berries you saved for later, the bear litteraly")
-		print("ignored it and killed you, moron")
-		health = health - 100
-		health_str = str(health)
-		if health == 0:
-			print("You died")
-			exit()
-		else:
-			pass
+    if food_eaten == "Meat":
+        print("You held out the dead cooked squirrel you made before..")
+        time.sleep(2)
+        print("The bear ignored it and lunged towards you, breaking your back thus dying. idiot")
+        health = health - 100
+        health_str = str(health)
+        if health == 0:
+            print("You died")
+            exit()
+        else:
+            pass
+    elif food_eaten == "Fruit":
+        print("You hold out some berries you saved for later, the bear litteraly")
+        print("ignored it and killed you, moron")
+        health = health - 100
+        health_str = str(health)
+        if health == 0:
+            print("You died")
+            exit()
+        else:
+            pass
 else:
-	print("YOU IDIOTJGLKDJHOI UGIUSGF:HSPOI JCRASHING CRASHINGDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD")
-	exit()
+    print("YOU IDIOTJGLKDJHOI UGIUSGF:HSPOI JCRASHING CRASHINGDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD")
+    exit()
 
 
 print("Now you dealt with that bear you decide to try and relocate society")
@@ -188,36 +188,36 @@ a6 = input("")
 clear()
 chad = True
 if a6 == "A":
-	print("You find a river near your "+ House +" and you decide to follow it")
-	time.sleep(3)
-	print("A day passes")
-	time.sleep(5)
-	print("A week passes")
-	time.sleep(4)
-	print("3 weeks pass and you decide to exit(), your too tired to do anything so you sleep for the night")
-	time.sleep(5)
-	chad = True
+    print("You find a river near your "+ House +" and you decide to follow it")
+    time.sleep(3)
+    print("A day passes")
+    time.sleep(5)
+    print("A week passes")
+    time.sleep(4)
+    print("3 weeks pass and you decide to exit(), your too tired to do anything so you sleep for the night")
+    time.sleep(5)
+    chad = True
 elif a6 == "B":
-	print("You collect some leaves and shrubury and use some flint and steel to burn the leaves")
-	print("You sleep for the night")
-	time.sleep(5)
-	chad = False
+    print("You collect some leaves and shrubury and use some flint and steel to burn the leaves")
+    print("You sleep for the night")
+    time.sleep(5)
+    chad = False
 else:
-	print("ERROROROROROROOR CRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRASSSSSSSSSSSSSSSSSSSHHHHHHHHHHHHHHH")
-	exit()
+    print("ERROROROROROROOR CRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRASSSSSSSSSSSSSSSSSSSHHHHHHHHHHHHHHH")
+    exit()
 print("After returning back to your "+ House +" you decide to eat food, what will you do this time?")
 print("A: Forage For Plants B: Hunt")
 a7 = input("")
 clear()
 if a7 == "A":
-	print("You forage for plants to eat and you find some bannanas and apples")
-	food_eaten = "Fruit"
+    print("You forage for plants to eat and you find some bannanas and apples")
+    food_eaten = "Fruit"
 elif a7 == "B":
-	print("You hunt down 1 cow because of your "+ weapon +".")
-	food_eaten = "Meat"
+    print("You hunt down 1 cow because of your "+ weapon +".")
+    food_eaten = "Meat"
 else:
-	print("l")
-	exit()
+    print("l")
+    exit()
 time.sleep(3)
 print("")
 def lmao():
@@ -244,8 +244,8 @@ if chad == False:
     time.sleep(3)
     print("Here we go again.")
 else:
-	print("Uhh you got the normal ending you lived in the forest for your entire life.")
-	exit()
+    print("Uhh you got the normal ending you lived in the forest for your entire life.")
+    exit()
 print("")
 print("Chapter 2 : The Abandoned City")
 print("")
@@ -301,11 +301,11 @@ if a10 == "Y":
     print("You open the door only to see the room is missing. its gone? how?")
     input("[Enter to Continue]")
 else:
-	print("You ignore it and walk past")
+    print("You ignore it and walk past")
 if chad == True:
-	print("Your scared of what might be in this building")
+    print("Your scared of what might be in this building")
 else:
-	print("You have an unwary feeling about this building.")
+    print("You have an unwary feeling about this building.")
 time.sleep(1)
 print("You decide to sleep in one of the apartment rooms which seemed normal")
 time.sleep(3)
@@ -313,11 +313,11 @@ print("You wake up and walk in the kitchen, what should you cook/make?")
 print("A: Salad B: Steak")
 a11 = input("")
 if a11 == "B":
-	print("You cook a nice juicy steak and eat it.")
-	food_eaten = "Meat"
+    print("You cook a nice juicy steak and eat it.")
+    food_eaten = "Meat"
 else:
-	print("You make a nice sald with some tomatos and lettuce.")
-	food_eaten = "Fruit"
+    print("You make a nice sald with some tomatos and lettuce.")
+    food_eaten = "Fruit"
 print("You walk out the building to find a MASSIVE lion.")
 print("What do you do?")
 print("A: Fight B: Run away")
@@ -347,7 +347,7 @@ if a12 == "A":
             health_str = str(health)
             print("You run away.")
 else:
-	print("You run away.")
+    print("You run away.")
 print("You go back to your apartment room and wonder, What was THAT?!")
 print("You decide just to sleep hoping that the lion looked big because of sleep deprivation.")
 time.sleep(5)
@@ -369,7 +369,7 @@ time.sleep(3)
 print("You wake up in the morning confused and scared, if that exploded nuclear power plant was what caused that wierdly large animals..")
 time.sleep(2)
 print("Imagine what else it can do..")
-if chad == True:
+if chad:
     print("Considering what we saw in that room.")
 time.sleep(1)
 print("You walk outside to the garden with a book.")
@@ -421,8 +421,46 @@ im = Image.open(r"pictures/hallway.png")
 im.show()
 sussy = input('[Enter to continue]')
 time.sleep(2)
+clear()
+print('Wha-')
+time.sleep(0.5)
+print('What is that?')
+time.sleep(2)
+print('I.. have never seen anything like that before.')
+time.sleep(2)
+print('No such animals have such bright eyes.')
+time.sleep(2)
+if chad:
+    print('Is, that what they were talking about?')
+    time.sleep(2)
+    print('Is THAT, what caused the.. ')
+    time.sleep(2)
+    print('Well i have to focus right now.')
 
-
+print('What do you do?')
+print('A: Pick a gun and fight B: Run')
+charinput = input('')
+clear()
+if charinput == 'A':
+    print('You run back into the room and look into your night stand drawer.')
+    time.sleep(2)
+    print('You run back into the hall and point your gun into the darkness.')
+    time.sleep(2)
+    print("There's nothing there.")
+    time.sleep(2)
+    print('Where did it go?')
+    time.sleep(2)
+else:
+    print('You get out the room and book it to the elevator.')
+    time.sleep(2)
+    print('You then realise that you litteraly stay in an abadoned')
+    print('city.')
+    time.sleep(2)
+    print('You run down the stairs instead and find a bathroom.')
+    time.sleep(2)
+    print('You go in one and lock the bathroom stall.')
+    time.sleep(2)
+    print('You wait for so long you fall asleep inside the stall.')
 # this game good
 clear()
 print('Credits')
