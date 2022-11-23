@@ -34,4 +34,4 @@ Image (install with {pip install Image})
 
 I hope you like my game, i spent quite the time on it!
 
-[Image not working :(](https://cdn130.picsart.com/317700705141211.png)
+![Image not working](https://cdn130.picsart.com/317700705141211.png "yes")
