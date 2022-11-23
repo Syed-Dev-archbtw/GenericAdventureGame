@@ -23,7 +23,7 @@ Run this command for windows:
 
 {
 
-cls && python 'Adventurer RPG WIP.py'
+cls && python "Adventurer RPG WIP.py"
 
 }
 
