@@ -291,7 +291,7 @@ print("Anyway you continue")
 print("You see millions of bloody foot prints on the floor")
 print("All headed to a black door.")
 print("Go in? [Y/N]")
-a10 =input("")
+a10 = input("")
 clear()
 def supersos():
     im = Image.open(r"pictures/doorttoanotherwoooooorld.png")
@@ -450,6 +450,9 @@ if charinput == 'A':
     time.sleep(2)
     print('Where did it go?')
     time.sleep(2)
+    print('You go back into your room and decide its a good time to sleep.')
+    time.sleep(2)
+    print('You wake up hungry.')
 else:
     print('You get out the room and book it to the elevator.')
     time.sleep(2)
@@ -461,10 +464,72 @@ else:
     print('You go in one and lock the bathroom stall.')
     time.sleep(2)
     print('You wait for so long you fall asleep inside the stall.')
+    time.sleep(2)
+    clear()
+    print('You wake up.')
+    time.sleep(2)
+    print('You go back into your room.')
+    time.sleep(2)
+    print('You search for anything that had changed.')
+    time.sleep(2)
+    print('.')
+    time.sleep(2)
+    print('Nothing.')
+time.sleep(2)
+print('You find that there is no food to eat.')
+time.sleep(2)
+if inventory[0] == 'Bear Meat':
+    print('But then you remember that you have some meat from')
+    time.sleep(0.5)
+    print('That bear you killed.')
+    time.sleep(2)
+    print('You go to the kitched and cook the meat.')
+    time.sleep(2)
+    print('You ate it and you feel satisfied.')
+    food_eaten = 'Meat'
+else:
+    print('What do you do?')
+    print('A: Steal meat from the grocery store. ')
+    print('B: Steal some greens from the farm.')
+    charinput = input('')
+    clear()
+    if charinput == 'A':
+        print('You go out of the apartment building and find a grocery store')
+        time.sleep(2)
+        print('Suprisingly everything looks like it has been maintained.')
+        time.sleep(2)
+        print('The food is still fresh, the lights are working, there is electricity ')
+        time.sleep(2)
+        print('Whatever')
+        time.sleep(2)
+        print('You go to the meat aisle and steal some meat.')
+        time.sleep(2)
+        print('You come back to your room and cook some nice food.')
+        time.sleep(2)
+        food_eaten = 'Meat'
+    else:
+        print('You go to your local farm and steal some potatos.')
+        time.sleep(2)
+        print('You boil them and you eat them.')
+        time.sleep(2)
+        print('You feel good.')
+        food_eaten = 'Not-Meat'
+time.sleep(2)
+print('You hear a loud bomb go off outside.')
+time.sleep(2)
+print('What is it now!')
+
+
+
+
+
+
+
 # this game good
 clear()
 print('Credits')
 print('')
 print('Me (obviously)')
-print('My brother for GFX')
+print('My brother for some GFX')
+print('My friend for chapter 1 houses GFX')
 input('')
