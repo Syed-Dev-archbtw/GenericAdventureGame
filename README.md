@@ -2,7 +2,7 @@ GAG (GenericAdventureGame)
 is a basic comand line game.
 To make it not completely barebones 
 i added a feature where it opens an 
-image file and shows it on the screen!
+image file and shows it on the screen! (for certain events only)
 
 Instalation:
  
