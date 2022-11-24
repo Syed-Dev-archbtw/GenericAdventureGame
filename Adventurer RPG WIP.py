@@ -228,7 +228,7 @@ if chad == False:
     time.sleep(3)
     print("ITS A HELICOPTER!")
     time.sleep(1)
-    print("finnaly, saftey..")
+    print("finaly, saftey..")
     print("you get on and you sleep...")
     time.sleep(5)
     print("You hear alarms blaring")
@@ -364,7 +364,7 @@ print("You instantly run back to your apartment room and find a radio box.")
 time.sleep(3)
 print("You try to use it but you dont know how to.")
 time.sleep(1)
-print('You just choost to sleep again.')
+print('You just choosE to sleep again.')
 time.sleep(3)
 print("You wake up in the morning confused and scared, if that exploded nuclear power plant was what caused that wierdly large animals..")
 time.sleep(2)
@@ -478,16 +478,17 @@ else:
 time.sleep(2)
 print('You find that there is no food to eat.')
 time.sleep(2)
-if inventory[0] == 'Bear Meat':
-    print('But then you remember that you have some meat from')
-    time.sleep(0.5)
-    print('That bear you killed.')
-    time.sleep(2)
-    print('You go to the kitched and cook the meat.')
-    time.sleep(2)
-    print('You ate it and you feel satisfied.')
-    food_eaten = 'Meat'
-else:
+try:
+    if inventory[0] == 'Bear Meat':
+        print('But then you remember that you have some meat from')
+        time.sleep(0.5)
+        print('That bear you killed.')
+        time.sleep(2)
+        print('You go to the kitched and cook the meat.')
+        time.sleep(2)
+        print('You ate it and you feel satisfied.')
+        food_eaten = 'Meat'
+except:
     print('What do you do?')
     print('A: Steal meat from the grocery store. ')
     print('B: Steal some greens from the farm.')
@@ -514,10 +515,111 @@ else:
         time.sleep(2)
         print('You feel good.')
         food_eaten = 'Not-Meat'
+
 time.sleep(2)
 print('You hear a loud bomb go off outside.')
 time.sleep(2)
-print('What is it now!')
+print('You walk out your room to see the same creature which you last night.')
+time.sleep(2)
+print('Your sick of this.')
+time.sleep(1.5)
+print('This creature has been harrasing you for far too long.')
+time.sleep(1.5)
+print('You pull out the pistol from your pocket and aim towards the darkness.')
+time.sleep(1.5)
+print('You fire mercilessly.')
+time.sleep(1.5)
+print('You open your eyes and you see nothing in the darkness in front of you.')
+time.sleep(2)
+clear()
+print('Is it dead?')
+time.sleep(1.5)
+print('Have you dealt with that nightmare?')
+time.sleep(1.5)
+print('You feel a light breathing on your neck.')
+time.sleep(1.5)
+print('Your heart drops at what you just realised.')
+clear()
+bosshealth = 300
+cntr = 0
+while bosshealth > 0:
+    clear()
+    time.sleep(1)
+    if health == 0:
+        print('You failed. you died')
+        exit()
+    print('                                            BOSS FIGHT                                                 ')
+    time.sleep(0.1)
+    print('                                       "LIGHTS"     300 HP                                             ')
+    time.sleep(0.25)
+    print('What do you do?')
+    time.sleep(0.5)
+    print('A: Fight')
+    input()
+    clear()
+    if cntr == 0:
+        print('You shoot its eye! dealing 30 damage!')
+        bosshealth = bosshealth - 30
+        time.sleep(1.8)
+        print('A loud deafening ring followed by a bright light plays.')
+        time.sleep(1.8)
+        print('You see hundreds of eyes!')
+        time.sleep(1.8)
+        print('Each one charges at you, punting you towards the wall.')
+        print('-20 HP')
+        health = health - 20
+        cntr = cntr + 1
+    elif cntr == 1:
+        print('You get up clutching your shoulder.')
+        time.sleep(1.8)
+        print('You look at it, and you shoot it twice again, dealing 60 damage!')
+        bosshealth = bosshealth = 60
+        time.sleep(1.8)
+        print('This time sparing no time and grabing an axe piercing its pure black body!')
+        time.sleep(1.8)
+        print('dealing 40 damage!')
+        bosshealth = bosshealth - 40
+        time.sleep(1.8)
+        print('You go in for another swing but it grabs your hanf and picks you up.')
+        time.sleep(1.8)
+        print('You try to reach in for the gun you left on the floor but it throws you')
+        time.sleep(0.5)
+        print('on the side of the wall and uses its claws to scratch your chest')
+        time.sleep(1.8)
+        print('Suprisingly it didnt hurt, -20 HP')
+        health = health - 20
+        cntr = cntr + 1
+    elif cntr == 2:
+        print('You decide you want to finish this.')
+        time.sleep(1.8)
+        print('You see a flash light on the floor and the axe.')
+        time.sleep(1.8)
+        print('You run towards it and you repeatedly wacking your axe on to its body')
+        time.sleep(1.8)
+        print('The axe creating a big wound and using the light to burn its skin.')
+        time.sleep(1.8)
+        clear()
+        print('.')
+        time.sleep(2)
+        clear()
+        print('..')
+        time.sleep(2)
+        clear()
+        print('...')
+        time.sleep(2)
+        clear()
+        print('KILLING IT IN THE PROCESS!')
+        time.sleep(1.8)
+        print('+100 xp')
+        exp = exp + 100
+        bosshealth = bosshealth - 270
+    time.sleep(1.5)
+clear()
+time.sleep(2)
+print('You go back into your room collapsing on to your bed, asleep')
+
+
+
 
 
 
