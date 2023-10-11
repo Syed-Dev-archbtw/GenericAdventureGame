@@ -1,4 +1,4 @@
-GAG (GenericAdventureGame)
+## GAG (GenericAdventureGame)
 is a basic comand line game.
 To make it not completely barebones 
 i added a feature where it opens an 
@@ -11,21 +11,11 @@ Simply just clone the repo in any directory and make sure you have python instal
 
 Running the game:
 
-Run this command for Linux:
-
-{    
-
+Run this command for Linux:   
 clear && python3 'Adventurer RPG WIP.py'
 
-}
-
 Run this command for windows:
-
-{
-
 cls && python "Adventurer RPG WIP.py"
-
-}
 
 
 Requirements
